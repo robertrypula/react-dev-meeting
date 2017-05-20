@@ -1,0 +1,13 @@
+.navigation * {
+  float: left;
+  display: block;
+  padding: 4px 20px;
+  background-color: lightgrey;
+  text-decoration: none;
+  color: black;
+}
+
+.navigation *.active {
+  background-color: black;
+  color: white;
+}

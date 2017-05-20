@@ -2,4 +2,42 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: darkgray;
+}
+
+.container {
+  margin: 0 auto;
+  background-color: white;
+  width: 70%;
+  padding: 0 20px;
+}
+
+.col-half {
+  float: left;
+  width: 50%;
+}
+
+.clearfix {
+  position: relative;
+  min-height: 1px;
+}
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: 0;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+input[type=text] {
+  background-color: lightgrey;
+  padding: 5px;
+  border: 1px solid gray;
 }
