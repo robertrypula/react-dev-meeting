@@ -86,7 +86,11 @@ class Home extends Component {
     this.setState({
       sort: newSort
     });
-  }; 
+  };
+
+  addNew = (newContact) => {
+    console.log(newContact);
+  };
 
   render() {
     return (
@@ -107,6 +111,8 @@ class Home extends Component {
           </span>
         </div>
 
+        <h2>Add New</h2>
+        <ContactAdd onAddNew={this.addNew} />
 
         <h2>Full list</h2>
         <ContactList
