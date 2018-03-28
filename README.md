@@ -1,3 +1,9 @@
+This project was created on React Dev meeting (Wrocław 2017.05.20)
+
+https://www.eventbrite.com/e/devmeeting-reactjs-dla-programistow-znajacych-js-wrocaw-tickets-34403388461
+
+## Default React readme below
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
